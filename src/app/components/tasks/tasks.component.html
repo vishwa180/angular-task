@@ -1,3 +1,5 @@
+<app-header></app-header>
+
 <app-add-task
   *ngIf="showAddTask"
   (onAddTask)="onAddTask($event)"
@@ -8,3 +10,5 @@
   (onDeleteTask)="deleteTask(task)"
   (onToggleRemainder)="toggleRemainder(task)"
 ></app-task-item>
+
+<a routerLink="/about">About Task Tracker</a>

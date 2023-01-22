@@ -5,10 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
-export class AppComponent {
-  showAddForm: boolean = false;
-
-  toggleForm() {
-    this.showAddForm = !this.showAddForm;
-  }
-}
+export class AppComponent {}
