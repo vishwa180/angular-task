@@ -5,6 +5,18 @@
       "text": "Pay Gas Bill",
       "remainder": false,
       "day": "Jan 21, 2023"
+    },
+    {
+      "text": "Water Plants",
+      "day": "Jan 22, 2023",
+      "remainder": true,
+      "id": 2
+    },
+    {
+      "text": "Clean the house",
+      "day": "Sunday, 11 AM",
+      "remainder": true,
+      "id": 3
     }
   ]
 }
